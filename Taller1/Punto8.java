@@ -15,4 +15,17 @@ public class Punto8 {
         int mayor = a[0];
         int menor = a[0];
 
-        };
+
+  // Buscamos el mayor y el menor recorriendo el arreglo
+
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > mayor) {
+                mayor = a[i];
+            }
+            if (a[i] < menor) {
+                menor = a[i];
+            }
+         
+         }
+
+        }
