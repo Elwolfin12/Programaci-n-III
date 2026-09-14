@@ -21,5 +21,44 @@ public class Punto12 {
                 contador++;
             }
         }
+        
+         // Creo B con el tamaño necesario
+        int[] b = new int[contador];
+
+        int pos = 0;
+
+        // Aqui para guardar las posiciones donde aparece x
+        for (int i = 0; i < a.length; i++) {
+
+            if (a[i] == x) {
+                b[pos] = i + 1;
+                pos++;
+            }
+        }
+
+
+        // Mostrar arreglo A
+
+        System.out.println("Arreglo A:");
+
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+
+        // Para mostrar X
+
+        System.out.println("\n\nValor buscado (x): " + x);
+
+        // Mostrar arreglo B
+        
+        System.out.println("Arreglo B (posiciones donde aparece x):");
+
+        for (int i = 0; i < b.length; i++) {
+            System.out.print(b[i] + " ");
+        }
+        
+    }
+
 
 }
+
