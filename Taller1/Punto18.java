@@ -8,6 +8,7 @@ public static void main(String[] args) {
         // lleno la tabla de multiplicar: tabla[i][j] = (i+1) * (j+1)
 
         for (int i = 0; i < 10; i++) {
+            
             for (int j = 0; j < 10; j++) {
                 tabla[i][j] = (i + 1) * (j + 1);
             }
