@@ -5,6 +5,7 @@ public static void main(String[] args) {
         int[] a = new int[10];
 
         // Llenar el arreglo con números aleatorios de -10 a 10
+
         for (int i = 0; i < a.length; i++) {
             a[i] = (int)(Math.random() * 21) - 10;
         }
@@ -14,6 +15,7 @@ public static void main(String[] args) {
         int contarPos = 0;
 
         // Contacon numeros negativos, positivos y el cero
+
         for (int i = 0; i < a.length; i++) {
 
             if (a[i] < 0) {
@@ -30,6 +32,7 @@ public static void main(String[] args) {
         }
 
         //Aqui para (n) negativo (c) cero y (p) positivos
+
         int[] negativos = new int[contadorNeg];
         int[] ceros = new int[contadorCero];
         int[] positivos = new int[contadorPos];
@@ -38,7 +41,8 @@ public static void main(String[] args) {
         int c = 0;
         int p = 0;
 
-          // Separar los números
+        // Separar los números
+
         for (int i = 0; i < a.length; i++) {
 
             if (a[i] < 0) {
@@ -57,10 +61,36 @@ public static void main(String[] args) {
             }
         }
 
+        // Mostrar arreglo con negativos positivos y ceros en estos 3
+
+        System.out.println("Arreglo original A:");
+
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+
+        // Mostrar negativos
+        System.out.println("\n\nNegativos:");
+
+        for (int i = 0; i < negativos.length; i++) {
+            System.out.print(negativos[i] + " ");
+        }
+
+        // Mostrar ceros
+        System.out.println("\n\nCeros:");
+
+        for (int i = 0; i < ceros.length; i++) {
+            System.out.print(ceros[i] + " ");
+        }
+
+        // Mostrar positivos
+        System.out.println("\n\nPositivos:");
+
+        for (int i = 0; i < positivos.length; i++) {
+            System.out.print(positivos[i] + " ");
+        }
 
 
-
-
-
+    }
             
 } 
