@@ -4,28 +4,58 @@ public static void main(String[] args) {
 
         int[] a = new int[10];
 
-        // Lleno el arreglo con números aleatorios
+        // Llenar el arreglo con números aleatorios de -10 a 10
         for (int i = 0; i < a.length; i++) {
-            a[i] = (int)(Math.random() * 21) - 10; //Porque queremos 21 posibilidades en este 
+            a[i] = (int)(Math.random() * 21) - 10;
         }
 
-        int negativos = 0;
-        int ceros = 0;
-        int positivos = 0;
+        int contarNeg = 0;
+        int contarCero = 0;
+        int contarPos = 0;
 
-        // Contar cada tipo
+        // Contacon numeros negativos, positivos y el cero
         for (int i = 0; i < a.length; i++) {
 
             if (a[i] < 0) {
-                negativos++;
-            } else {
-                if (a[i] == 0) {
-                    ceros++;
-                } else {
-                    positivos++;
-                }
+                contarNeg++;
             }
 
+            if (a[i] == 0) {
+                contarCero++;
+            }
+
+            if (a[i] > 0) {
+                contarPos++;
+            }
+        }
+
+        //Aqui para (n) negativo (c) cero y (p) positivos
+        int[] negativos = new int[contadorNeg];
+        int[] ceros = new int[contadorCero];
+        int[] positivos = new int[contadorPos];
+
+        int n = 0;
+        int c = 0;
+        int p = 0;
+
+          // Separar los números
+        for (int i = 0; i < a.length; i++) {
+
+            if (a[i] < 0) {
+                negativos[n] = a[i];
+                n++;
+            }
+
+            if (a[i] == 0) {
+                ceros[c] = a[i];
+                c++;
+            }
+
+            if (a[i] > 0) {
+                positivos[p] = a[i];
+                p++;
+            }
+        }
 
 
 
