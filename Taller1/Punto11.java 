@@ -1,0 +1,36 @@
+public class Punto11 {
+
+public static void main(String[] args) {
+
+        int[] a = new int[10];
+
+        // Lleno el arreglo con números aleatorios
+        for (int i = 0; i < a.length; i++) {
+            a[i] = (int)(Math.random() * 21) - 10; //Porque queremos 21 posibilidades en este 
+        }
+
+        int negativos = 0;
+        int ceros = 0;
+        int positivos = 0;
+
+        // Contar cada tipo
+        for (int i = 0; i < a.length; i++) {
+
+            if (a[i] < 0) {
+                negativos++;
+            } else {
+                if (a[i] == 0) {
+                    ceros++;
+                } else {
+                    positivos++;
+                }
+            }
+
+
+
+
+
+
+
+            
+} 

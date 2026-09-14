@@ -43,7 +43,7 @@ public class Punto8 {
             }
         }
  
-        //Muestro por consola
+    //Muestro por consola
 
         System.out.println("Arreglo de 30 numeros:");
         for (int i = 0; i < a.length; i++) {

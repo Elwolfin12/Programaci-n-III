@@ -16,7 +16,7 @@ public class Punto7 {
             }
         }
  
-        // Creamos los arreglos con el operador new, usando los tamaños calculados
+    // Creamos los arreglos con el operador new, usando los tamaños calculados
         int[] pares = new int[contarPares];
         int[] impares = new int[contarImpares];
  
@@ -33,7 +33,7 @@ public class Punto7 {
             } 
         }
 
-        //Muestro los resuldados el /n/n es para que queden bien organizados
+    //Muestro los resuldados el /n/n es para que queden bien organizados
 
           System.out.println("Arreglo original A:");
         for (int i = 0; i < a.length; i++) {
