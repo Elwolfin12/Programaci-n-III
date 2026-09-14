@@ -27,7 +27,34 @@ public class Punto10 {
         int pos = 0;
 
 
+        // Sumo los elementos opuestos
+        for (; inicio <= fin; inicio++, fin--) {
 
+            if (inicio == fin) {
+                b[pos] = a[inicio];
+            }
+
+            if (inicio != fin) {
+                b[pos] = a[inicio] + a[fin];
+            }
+
+            pos++;
+        }
+
+        // Mostrar arreglo A
+        System.out.println("Arreglo A:");
+
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+
+        // Mostrar arreglo B
+        System.out.println("\n\nArreglo B (suma de los opuestos):");
+
+        for (int i = 0; i < b.length; i++) {
+            System.out.print(b[i] + " ");
+        }
+    }
 
 
 
