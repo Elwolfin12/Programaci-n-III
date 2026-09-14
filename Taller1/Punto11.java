@@ -1,10 +1,10 @@
 public class Punto11 {
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
         int[] a = new int[10];
 
-        // Llenar el arreglo con números aleatorios de -10 a 10
+        // Llenar el arreglo con números aleatorios de -10 a 10 y el 0 ue es 1 tambien
 
         for (int i = 0; i < a.length; i++) {
             a[i] = (int)(Math.random() * 21) - 10;
@@ -14,7 +14,7 @@ public static void main(String[] args) {
         int contarCero = 0;
         int contarPos = 0;
 
-        // Contacon numeros negativos, positivos y el cero
+        // Contar con numeros negativos, positivos y el cero
 
         for (int i = 0; i < a.length; i++) {
 
@@ -92,5 +92,5 @@ public static void main(String[] args) {
 
 
     }
-            
-} 
+    
+}
