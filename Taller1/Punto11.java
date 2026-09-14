@@ -33,9 +33,9 @@ public class Punto11 {
 
         //Aqui para (n) negativo (c) cero y (p) positivos
 
-        int[] negativos = new int[contadorNeg];
-        int[] ceros = new int[contadorCero];
-        int[] positivos = new int[contadorPos];
+        int[] negativos = new int[contarNeg];
+        int[] ceros = new int[contarCero];
+        int[] positivos = new int[contarPos];
 
         int n = 0;
         int c = 0;
