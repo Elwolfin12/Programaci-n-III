@@ -31,5 +31,17 @@ public class Punto17 {
             System.out.println();
         }
 
+        System.out.println("\nSuma de cada fila:");
+        for (int i = 0; i < sumaFilas.length; i++) {
+            System.out.println("Fila " + (i + 1) + ": " + sumaFilas[i]);
+        }
+ 
+        System.out.println("\nSuma de cada columna:");
+        for (int j = 0; j < sumaColumnas.length; j++) {
+            System.out.println("Columna " + (j + 1) + ": " + sumaColumnas[j]);
+        }
+ 
+    }
+
 
 }
