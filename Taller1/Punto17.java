@@ -14,4 +14,22 @@ public class Punto17 {
         int columnas = matriz[0].length;
 
 
+        // Creo los arreglos para guardar la suma de cada fila y de cada columna
+        int[] sumaFilas = new int[filas];
+ 
+        int[] sumaColumnas = new int[columnas];
+
+
+ 
+        System.out.println("Matriz:");
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+                System.out.print(matriz[i][j] + "\t");
+                sumaFilas[i] += matriz[i][j];
+                sumaColumnas[j] += matriz[i][j];
+            }
+            System.out.println();
+        }
+
+
 }
