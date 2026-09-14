@@ -9,8 +9,12 @@ public class Punto12 {
             a[i] = (int)(Math.random() * 5) + 1;
         }
 
+
+
         // Valor que estamos buscando
         int x = (int)(Math.random() * 5) + 1;
+
+        
 
         // Contamos cuantas veces aparece x
         int contador = 0;
