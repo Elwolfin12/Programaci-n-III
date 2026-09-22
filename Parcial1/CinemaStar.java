@@ -1,7 +1,10 @@
 package Parcial1;
 
-sda
-
 public class CinemaStar {
-    
+
+    /*
+     * ii
+     * ll
+     * llo
+     */
 }
