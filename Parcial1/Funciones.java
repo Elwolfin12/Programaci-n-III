@@ -1,3 +1,5 @@
+ // Una funcion es: una pelicula, en una sala, a una hora.
+// Cada funcion tiene su propia sala (sus propios asientos).
 public class Funciones {
  
     private Peliculas pelicula;
@@ -29,7 +31,7 @@ public class Funciones {
         return objetoSala;
     }
  
-    // Cuantas sillas libres hay 
+    // Cuantas sillas libres tiene esta funcion
     public int getDisponibles() {
         return objetoSala.contarDisponibles();
     }
