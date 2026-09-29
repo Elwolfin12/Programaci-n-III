@@ -127,7 +127,7 @@ public class Main {
         System.out.println("Pelicula registrada.");
     }
  
-    // ---------------- FUNCIONES ----------------
+    // Funciones
  
     public static void menuFunciones() {
         int op = 0;
