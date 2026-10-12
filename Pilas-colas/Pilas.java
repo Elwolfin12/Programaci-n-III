@@ -28,6 +28,17 @@ public class Pilas {
         // Uso peek para ver el tope sin sacarlo
         System.out.println("\nLibro de encima: " + carrito.peek());
 
+         // el pop para sacar el tope en este caso 
+        System.out.println("Libro ubicado en estante: " + carrito.pop());
+        System.out.println("Carrito: " + carrito);
+
+        // Con search la posicion desde el tope 
+        System.out.print("\nQue libro desea buscar");
+        String buscado = sc.nextLine();
+        System.out.println("search('" + buscado + "') = " + carrito.search(buscado)
+                + "  (1 = tope, -1 = no esta)");
+
+        sc.close();
      
     }
 }
