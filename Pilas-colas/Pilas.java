@@ -11,3 +11,23 @@ public class Pilas {
 
         // Uso empty al inicio esta vacia 
         System.out.println("Carrito vacio" + carrito.empty());
+
+         // Con push agrego libros devueltos 
+        System.out.println("\nDEVOLUCION DE LIBROS");
+        System.out.print("Libro 1: ");
+        carrito.push(sc.nextLine());
+        System.out.print("Libro 2: ");
+        carrito.push(sc.nextLine());
+        System.out.print("Libro 3: ");
+        carrito.push(sc.nextLine());
+        System.out.print("Libro 4: ");
+        carrito.push(sc.nextLine());
+        System.out.println("\nCarrito: " + carrito);
+        System.out.println("Carrito vacio " + carrito.empty());
+
+        // Uso peek para ver el tope sin sacarlo
+        System.out.println("\nLibro de encima: " + carrito.peek());
+
+     
+    }
+}
