@@ -21,3 +21,18 @@ public class Colas {
         System.out.print("Nombre del lector 4: ");
         reservas.offer(sc.nextLine());
         System.out.println("\nCola de reservas: " + reservas);
+
+        // Aqui para remover con remove y poll
+        System.out.println("\nEntregan el libro a: " + reservas.remove());
+        System.out.println("Entregan el libro a: " + reservas.poll());
+        System.out.println("Cola de reservas: " + reservas);
+
+        // Uso examinar con element y peek
+        System.out.println("\nSigue: " + reservas.element());
+        System.out.println("Sigue: " + reservas.peek());
+
+        sc.close();
+
+    }
+
+}
