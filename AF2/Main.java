@@ -58,3 +58,23 @@ public class Main {
             }
         }
     }
+
+
+    // Lee una linea completa del teclado.
+
+    static String leerTexto(String mensaje) {
+        System.out.print(mensaje);
+        return sc.nextLine().trim();
+    }
+
+    // Lee un entero; si escriben letras devuelve -1 osea 0.
+    
+    static int leerNumero(String mensaje) {
+        try {
+            return Integer.parseInt(leerTexto(mensaje));
+        } catch (NumberFormatException e) {
+            return -1;
+        }
+    }
+    
+}
