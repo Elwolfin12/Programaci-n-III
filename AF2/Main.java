@@ -1,3 +1,7 @@
+package AF2;
+
+import java.util.Scanner;
+
 public class Main {
     static Scanner sc = new Scanner(System.in);
 
@@ -59,7 +63,6 @@ public class Main {
         }
     }
 
-
     // Lee una linea completa del teclado.
 
     static String leerTexto(String mensaje) {
@@ -76,5 +79,4 @@ public class Main {
             return -1;
         }
     }
-    
 }
