@@ -1,4 +1,4 @@
-package ProyectoFinal.modelo;
+package modelo;
 
     // Cada fila representa un dia y cada columna una hora.
     // false = libre; true = ocupada.

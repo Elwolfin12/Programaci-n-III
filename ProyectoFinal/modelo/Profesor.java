@@ -1,4 +1,4 @@
-package ProyectoFinal.modelo;
+package modelo;
 
     // Profesor es otra clase hija de Persona.
     // Agrega los datos propios del profesor.

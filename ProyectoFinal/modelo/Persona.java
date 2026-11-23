@@ -1,4 +1,4 @@
-package ProyectoFinal.modelo;
+package modelo;
 
     // Clase base: guarda los datos que comparten estudiantes y profesores.
     // Es abstracta porque no se crean personas directamente.
