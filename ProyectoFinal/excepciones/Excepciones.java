@@ -1,4 +1,4 @@
-package excepciones;
+package ProyectoFinal.excepciones;
 
     // Todas las excepciones personalizadas se guardan en este archivo.
     // Cada una permite informar un tipo de error especifico.
